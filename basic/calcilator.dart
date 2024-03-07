@@ -7,7 +7,7 @@ void main()
 {
 
   stdout.write('Enter a character: ');
-  String t = stdin.readLineSync() ?? '';
+  String t = stdin.readLineSync()!;
 
  stdout.write("Entre the fist value : ");
   int n = int.parse(stdin.readLineSync()!);
